@@ -2,14 +2,44 @@
     ViewBag.Title = "Home Page";
 }
 
+<!-- JQuery FOR CAROUSEL -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<!-- JUMBOTRON -->
 <div class="jumbotron jumbo-custom">
-    <h1>My Wardrobe Application</h1>
+    <h1>[My Wardrobe Application]</h1>
     <p class="lead lead-custom">"It makes us look good when you look good!"</p>
 </div>
 
-<div class="spacing">
-<!-- THIS TAKES UP SPACE -->
+<!-- CAROUSEL -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <div class="carousel-quotes etc-font">"YOU EITHER KNOW FASHION OR YOU DON'T."</div>
+            <div class="carousel-names etc-font">Anna Wintour, Vogue Editor</div>
+        </div>
+        <div class="item">
+            <div class="carousel-quotes etc-font">"SHOES TRANSFORM YOUR BODY LANGUAGE AND ATTITUDE."</div>
+            <div class="carousel-names etc-font">Christian Laboutin, Fashion Designer</div>
+        </div>
+        <div class="item">
+            <div class="carousel-quotes etc-font">"I LIKE MY MONEY RIGHT WHERE I CAN SEE IT: HANGING IN MY CLOSET."</div>
+            <div class="carousel-names etc-font">Carrie Bradshaw, Fashionista</div>
+        </div>
+    </div>
+    <!-- LEFT- AND RIGHT CONTROLS OF CAROUSEL -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphiconColor"><span class="glyphicon glyphicon-chevron-right"></span></span>
+        <span class="sr-only">Next</span>
+    </a>
 </div>
+<!-- END CAROUSEL -->
 
 <div class="row text-center link-padding">
     <div class="col-md-3">

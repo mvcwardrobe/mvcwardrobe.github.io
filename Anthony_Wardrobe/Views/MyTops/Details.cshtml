@@ -7,7 +7,7 @@
 <h2>Details</h2>
 
 <div>
-    <h4>MyTop</h4>
+    <h4>My Tops</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
@@ -23,7 +23,7 @@
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Photo)
+            <img src="@Html.DisplayFor(model => model.Photo)" />
         </dd>
 
         <dt>
@@ -50,8 +50,9 @@
             @Html.DisplayFor(model => model.Occasion)
         </dd>
 
+        <!-- CHANGE THE DISPLAY OF SHOETYPE1 -->
         <dt>
-            @Html.DisplayNameFor(model => model.TopType.TopType1)
+            @Html.LabelFor(model => model.TopType.TopType1, "Top Type")
         </dt>
 
         <dd>
