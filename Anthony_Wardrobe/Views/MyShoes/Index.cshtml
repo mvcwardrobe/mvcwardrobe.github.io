@@ -19,11 +19,12 @@
             <div class="col-sm-6 col-md-4 gallery-padding">
                 <div class="thumbnail">
                     <div class="caption text-center">
-                        <h3>@Html.DisplayFor(modelItem => item.Name)</h3>
+                        <h3>@Html.DisplayFor(modelItem => item.Name).ToString().ToUpper()</h3>
                         <img src="@Html.DisplayFor(modelItem => item.Photo)" />
-                        <h5>@Html.DisplayFor(modelItem => item.Color)</h5>
-                        <h5>@Html.DisplayFor(modelItem => item.Season)</h5>
-                        <h5>@Html.DisplayFor(modelItem => item.Occasion)</h5>
+                        <h4>@Html.DisplayFor(modelItem => item.ShoeType.ShoeType1).ToString().ToUpper()</h4>
+                        <h5>Color(s): @Html.DisplayFor(modelItem => item.Color)</h5>
+                        <h5>Season(s): @Html.DisplayFor(modelItem => item.Season)</h5>
+                        <h5>Occasion(s): @Html.DisplayFor(modelItem => item.Occasion)</h5>
                         <p>@Html.ActionLink("Details", "Details", new { id = item.MyShoeID }, new { role = "button", @class = "btn btn-primary" })</p>
                     </div>
                 </div>
