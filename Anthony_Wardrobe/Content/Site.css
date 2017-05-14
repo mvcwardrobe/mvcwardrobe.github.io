@@ -1,30 +1,43 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+﻿@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+/*CUSTOMIZED CSS*/
+
+/*SET THE BACKGROUND IMAGE TO A NECKTIE COLLECTION*/
+body {
+    padding-top:50px;
+    padding-bottom:20px;
     background-color:#D46A6A;
     color:#FFFFFF;
     background-image:url("../images/Neckties.PNG");
     background-size:cover;
 }
 
+/*CHANGE THE NAVBAR COLOR; LINKS ALIGNED RIGHT USING BOOTSTRAP CLASS*/
 .navbar-custom{
-    color:#FFFFFF;
+    background-color:#000000;
 }
 
+/*ADD TRANSLUCENT BACKGROUND; CHANGE DESCRIPTIVE FONT*/
 .jumbo-custom{
     margin-top:20px;
     color:#FFFFFF;
-    background: rgba(0, 0, 0, 0.4); /* Set the opacity to 0 to make the jumbotron's background go away. */
+    background:rgba(0, 0, 0, 0.4); 
     text-align:center;
+    font-family:'Indie Flower', cursive;
 }
 
+/*ADD TRANSLUCENT BACKGROUND; CHANGE DESCRIPTIVE FONT*/
 .link-padding{
-        background-color: rgba(0, 0, 0, 0.4);
+    background-color:rgba(0, 0, 0, 0.4);
+    font-family:'Indie Flower', cursive;
 }
 
+/*ADD SOME SPACE BETWEEN JUMBROTRON AND LINKS SECTION W/OUT FORCING LINKS SECTION TO BOTTOM*/
 .spacing{
     padding-top:150px;
 }
+
+/*END CUSTOMIZED CSS*/
 
 
 /* Set padding to keep content from hitting the edges */
