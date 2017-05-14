@@ -1,7 +1,31 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color:#D46A6A;
+    color:#FFFFFF;
+    background-image:url("../images/Neckties.PNG");
+    background-size:cover;
 }
+
+.navbar-custom{
+    color:#FFFFFF;
+}
+
+.jumbo-custom{
+    margin-top:20px;
+    color:#FFFFFF;
+    background: rgba(0, 0, 0, 0.4); /* Set the opacity to 0 to make the jumbotron's background go away. */
+    text-align:center;
+}
+
+.link-padding{
+        background-color: rgba(0, 0, 0, 0.4);
+}
+
+.spacing{
+    padding-top:150px;
+}
+
 
 /* Set padding to keep content from hitting the edges */
 .body-content {

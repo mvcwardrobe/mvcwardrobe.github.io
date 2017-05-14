@@ -11,7 +11,8 @@ namespace Anthony_Wardrobe.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class MyAccessory
     {
         public int MyAccessoryID { get; set; }
