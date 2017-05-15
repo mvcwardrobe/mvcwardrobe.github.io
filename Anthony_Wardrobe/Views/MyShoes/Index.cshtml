@@ -24,8 +24,8 @@
                         <h4>@Html.DisplayFor(modelItem => item.ShoeType.ShoeType1).ToString().ToUpper()</h4>
                         <h5>Color(s): @Html.DisplayFor(modelItem => item.Color)</h5>
                         <h5>Season(s): @Html.DisplayFor(modelItem => item.Season)</h5>
-                        <h5>Occasion(s): @Html.DisplayFor(modelItem => item.Occasion)</h5>
-                        <p>@Html.ActionLink("Details", "Details", new { id = item.MyShoeID }, new { role = "button", @class = "btn btn-primary" })</p>
+                        <h5 class="alter-ego">Occasion(s): @Html.DisplayFor(modelItem => item.Occasion)</h5>
+                        <p class="alter-ego">@Html.ActionLink("Details", "Details", new { id = item.MyShoeID }, new { role = "button", @class = "btn btn-primary" })</p>
                     </div>
                 </div>
             </div>
