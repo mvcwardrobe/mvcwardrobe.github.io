@@ -8,57 +8,56 @@
 
     <h2 class="etc-font">Details</h2>
 
-        <dl class="dl-horizontal etc-font">
-            <dt>
-                @Html.DisplayNameFor(model => model.Name)
-            </dt>
+    <dl class="dl-horizontal alter-ego thumbnail">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
 
-            <dd>
-                @Html.DisplayFor(model => model.Name)
-            </dd>
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
 
-            <dt>
-                @Html.DisplayNameFor(model => model.Photo)
-            </dt>
+        <dt>
+            @Html.DisplayNameFor(model => model.Photo)
+        </dt>
 
-            <dd>
-                <img src="@Html.DisplayFor(model => model.Photo)" />
-            </dd>
+        <dd>
+            <img src="@Html.DisplayFor(model => model.Photo)" />
+        </dd>
 
-            <dt>
-                @Html.DisplayNameFor(model => model.Color)
-            </dt>
+        <dt>
+            @Html.DisplayNameFor(model => model.Color)
+        </dt>
 
-            <dd>
-                @Html.DisplayFor(model => model.Color)
-            </dd>
+        <dd>
+            @Html.DisplayFor(model => model.Color)
+        </dd>
 
-            <dt>
-                @Html.DisplayNameFor(model => model.Season)
-            </dt>
+        <dt>
+            @Html.DisplayNameFor(model => model.Season)
+        </dt>
 
-            <dd>
-                @Html.DisplayFor(model => model.Season)
-            </dd>
+        <dd>
+            @Html.DisplayFor(model => model.Season)
+        </dd>
 
-            <dt>
-                @Html.DisplayNameFor(model => model.Occasion)
-            </dt>
+        <dt>
+            @Html.DisplayNameFor(model => model.Occasion)
+        </dt>
 
-            <dd>
-                @Html.DisplayFor(model => model.Occasion)
-            </dd>
+        <dd>
+            @Html.DisplayFor(model => model.Occasion)
+        </dd>
 
-            <!-- CHANGE THE DISPLAY OF BOTTOMTYPE1 -->
-            <dt>
-                @Html.LabelFor(model => model.BottomType.BottomType1, "Bottom Type")
-            </dt>
+        <!-- CHANGE THE DISPLAY OF BOTTOMTYPE1 -->
+        <dt>
+            @Html.LabelFor(model => model.BottomType.BottomType1, "Bottom Type")
+        </dt>
 
-            <dd>
-                @Html.DisplayFor(model => model.BottomType.BottomType1)
-            </dd>
-
-        </dl>
+        <dd>
+            @Html.DisplayFor(model => model.BottomType.BottomType1)
+        </dd>
+    </dl> 
 
     <p class="etc-font">
         @Html.ActionLink("Edit", "Edit", new { id = Model.MyBottomID }, new { style = "color:white" }) |
